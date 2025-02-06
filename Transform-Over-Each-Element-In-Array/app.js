@@ -42,7 +42,7 @@ var map = function(arr, fn) {
 
 // Test case 1
 const arr1 = [1, 2, 3];
-const fn1 = (num, i) => num + 1;
+const fn1 = (num, i) => num + 1; //add 1 to each element
 console.log(map(arr1, fn1));
 
 // Test case 2
